@@ -108,10 +108,12 @@ ApplicationWindow {
             anchors.left: parent.left
             ToolButton {
                 flat: true
-                icon {
+                text: "\uf013"
+                font.family: forkAwesome.name
+                /*icon {
                     name: "preferences-system"
-                    source: "qrc:/icons/gear-16.png"
-                }
+                    //source: "qrc:/icons/gear-16.png"
+                }*/
                 onClicked: settingsDialog.open()
             }
             Item { Layout.fillWidth: true } // spacer

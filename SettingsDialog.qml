@@ -14,7 +14,7 @@ Dialog {
         anchors.left: parent.left
         anchors.right: parent.right
 
-        Label { text: "Url"; Layout.minimumWidth: 100;  horizontalAlignment: Qt.AlignRight }
+        Label { text: "Url"; Layout.fillWidth: true; horizontalAlignment: Qt.AlignRight }
         TextField {
             id: textIp
             placeholderText: "IP of your phone"
@@ -22,7 +22,7 @@ Dialog {
             Layout.fillWidth: true
         }
 
-        Label { text: "Port"; Layout.minimumWidth: 100;  horizontalAlignment: Qt.AlignRight }
+        Label { text: "Port"; Layout.fillWidth: true; horizontalAlignment: Qt.AlignRight }
         TextField {
             id: textPort
             placeholderText: "Port to connect to"
@@ -30,7 +30,7 @@ Dialog {
             Layout.fillWidth: true
         }
 
-        Label { text: "Code"; Layout.minimumWidth: 100;  horizontalAlignment: Qt.AlignRight }
+        Label { text: "Code"; Layout.fillWidth: true; horizontalAlignment: Qt.AlignRight }
         TextField {
             id: textCode
             placeholderText: "App secret code"
