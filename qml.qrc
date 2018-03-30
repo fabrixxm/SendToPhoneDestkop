@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainMenu.qml</file>
+        <file>note.qml</file>
+        <file>icons/icon-64.png</file>
+        <file>icons/icon-16.png</file>
+        <file>icons/icon-32.png</file>
+        <file>icons/icon-16-off.png</file>
+        <file>icons/icon-32-off.png</file>
+        <file>icons/icon-64-off.png</file>
+        <file>icons/gear-16.png</file>
+        <file>app.js</file>
+        <file>SettingsDialog.qml</file>
+        <file>disconnected.qml</file>
+        <file>note.js</file>
+        <file>browser.qml</file>
+        <file>browser.js</file>
+        <file>ToastPopup.qml</file>
+        <file>icons/forkawesome-webfont.ttf</file>
+        <file>ToolSeparator.qml</file>
+        <file>storage.js</file>
+    </qresource>
+</RCC>
